@@ -1,5 +1,11 @@
 # Changelog
 
+## [integrations/firecrawl-v1.0.1] - 2026-02-24
+
+### 🌀 Miscellaneous
+
+- Docs: Update Firecrawl module path in Docusaurus configuration (#2869)
+
 ## [integrations/firecrawl-v1.0.0] - 2026-02-24
 
 ### 🚀 Features
