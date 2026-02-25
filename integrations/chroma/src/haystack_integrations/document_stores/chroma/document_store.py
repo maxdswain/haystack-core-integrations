@@ -539,6 +539,8 @@ class ChromaDocumentStore:
             for k, v in doc.meta.items():
                 if isinstance(v, SUPPORTED_TYPES_FOR_METADATA_VALUES):
                     valid_meta[k] = v
+                elif isinstance(v, list) and all(isinstance(item, SUPPORTED_TYPES_FOR_METADATA_VALUES) for item in v):
+                    valid_meta[k] = v
                 else:
                     discarded_keys.append(k)
 
