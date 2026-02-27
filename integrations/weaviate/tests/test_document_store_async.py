@@ -2,7 +2,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+from collections.abc import AsyncGenerator
+
 import pytest
+import pytest_asyncio
 from haystack.dataclasses.document import Document
 
 from haystack_integrations.document_stores.weaviate import WeaviateDocumentStore
@@ -11,8 +14,8 @@ from haystack_integrations.document_stores.weaviate.document_store import DOCUME
 
 @pytest.mark.integration
 class TestWeaviateDocumentStoreAsync:
-    @pytest.fixture
-    def document_store(self, request) -> WeaviateDocumentStore:
+    @pytest_asyncio.fixture
+    async def document_store(self, request) -> AsyncGenerator[WeaviateDocumentStore, None, None]:
         collection_settings = {
             "class": f"{request.node.name}",
             "invertedIndexConfig": {"indexNullState": True},
@@ -29,6 +32,8 @@ class TestWeaviateDocumentStoreAsync:
         )
         yield store
         store.client.collections.delete(collection_settings["class"])
+        store.close()
+        await store.close_async()
 
     @pytest.mark.asyncio
     async def test_bm25_retrieval_async(self, document_store):

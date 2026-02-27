@@ -5,6 +5,7 @@
 import base64
 import logging
 import os
+from collections.abc import Generator
 from unittest.mock import MagicMock, patch
 
 import pytest
@@ -46,7 +47,7 @@ def test_init_is_lazy(_mock_client):
 @pytest.mark.integration
 class TestWeaviateDocumentStore(DocumentStoreBaseExtendedTests):
     @pytest.fixture
-    def document_store(self, request) -> WeaviateDocumentStore:
+    def document_store(self, request) -> Generator[WeaviateDocumentStore, None, None]:
         # Use a different index for each test so we can run them in parallel
         collection_settings = {
             "class": f"{request.node.name}",
@@ -65,6 +66,7 @@ class TestWeaviateDocumentStore(DocumentStoreBaseExtendedTests):
         )
         yield store
         store.client.collections.delete(collection_settings["class"])
+        store.close()
 
     @pytest.fixture
     def filterable_docs(self) -> list[Document]:
