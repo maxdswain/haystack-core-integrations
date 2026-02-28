@@ -13,7 +13,7 @@ keywords = []
 authors = [
     { name = "Alistair Rogers", email = "alistairlr112@gmail.com" },
     { name = "Sachin Sachdeva", email = "emailforsachinsachdeva@gmail.com" },
-    { name = "deepset GmbH", email = "[info@deepset.ai](mailto:info@deepset.ai)" },
+    { name = "deepset GmbH", email = "info@deepset.ai" },
 ]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
