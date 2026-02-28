@@ -18,7 +18,7 @@ keywords = [
     "Document Converter",
 ]
 authors = [
-    { name = "deepset GmbH", email = "info@deepset.ai" },
+    { name = "deepset GmbH", email = "[info@deepset.ai](mailto:info@deepset.ai)" },
 ]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",

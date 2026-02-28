@@ -12,7 +12,7 @@ license = "Apache-2.0"
 keywords = []
 authors = [
   { name = "Kacper Łukawski", email = "kacper.lukawski@deepset.ai" },
-  { name = "deepset GmbH", email = "info@deepset.ai" },
+  { name = "deepset GmbH", email = "[info@deepset.ai](mailto:info@deepset.ai)" },
 ]
 classifiers = [
   "License :: OSI Approved :: Apache Software License",
