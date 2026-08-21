@@ -2,12 +2,13 @@
 
 [Full report](https://htmlpreview.github.io/?https://github.com/maxdswain/haystack-core-integrations/blob/python-coverage-comment-action-data-arcadedb/htmlcov/index.html)
 
-| Name                                                                    |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
-|------------------------------------------------------------------------ | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/document\_stores/arcadedb/converters.py      |       14 |        5 |        4 |        0 |     61% |     28-38 |
-| src/haystack\_integrations/document\_stores/arcadedb/document\_store.py |      336 |       67 |      128 |       17 |     80% |170, 177-215, 237, 284-\>277, 292-\>275, 319-323, 353, 367-\>369, 375-385, 408-409, 415-416, 436-438, 459-463, 478-\>481, 483, 507-\>509, 527-\>530, 556, 570-585 |
-| src/haystack\_integrations/document\_stores/arcadedb/filters.py         |       85 |        0 |       54 |        0 |    100% |           |
-| **TOTAL**                                                               |  **435** |   **72** |  **186** |   **17** | **84%** |           |
+| Name                                                                              |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
+|---------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
+| src/haystack\_integrations/components/retrievers/arcadedb/embedding\_retriever.py |       33 |        2 |        8 |        4 |     85% |94, 96, 142-\>144, 144-\>146 |
+| src/haystack\_integrations/document\_stores/arcadedb/converters.py                |       14 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/arcadedb/document\_store.py           |      355 |       77 |      136 |       18 |     78% |154, 186, 193-231, 253, 300-\>293, 308-\>291, 335-339, 369, 383-\>385, 391-401, 424-425, 431-432, 452-454, 477-482, 497-\>500, 502, 526-\>528, 546-\>549, 575, 595-619 |
+| src/haystack\_integrations/document\_stores/arcadedb/filters.py                   |       89 |        0 |       56 |        0 |    100% |           |
+| **TOTAL**                                                                         |  **491** |   **79** |  **204** |   **22** | **83%** |           |
 
 
 ## Setup coverage badge
