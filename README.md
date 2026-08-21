@@ -4,13 +4,13 @@
 
 | Name                                                                                       |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |------------------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/azure\_ai\_search/bm25\_retriever.py      |       39 |        0 |        6 |        1 |     98% |   95-\>97 |
-| src/haystack\_integrations/components/retrievers/azure\_ai\_search/embedding\_retriever.py |       39 |        0 |        6 |        1 |     98% |   92-\>94 |
-| src/haystack\_integrations/components/retrievers/azure\_ai\_search/hybrid\_retriever.py    |       39 |        0 |        6 |        1 |     98% |   95-\>97 |
-| src/haystack\_integrations/document\_stores/azure\_ai\_search/document\_store.py           |      362 |      137 |      126 |       11 |     61% |68-\>73, 210, 224-231, 239-240, 290-314, 396, 404-405, 414-\>417, 419-420, 494-503, 513-517, 528-529, 542-546, 566-\>570, 593-608, 616-620, 629-658, 671-686, 700-734, 743, 754-755, 767-772, 778-807, 842-849, 882-885, 915-917, 953-962 |
+| src/haystack\_integrations/components/retrievers/azure\_ai\_search/bm25\_retriever.py      |       41 |        0 |        6 |        1 |     98% |   95-\>97 |
+| src/haystack\_integrations/components/retrievers/azure\_ai\_search/embedding\_retriever.py |       41 |        0 |        6 |        1 |     98% |   92-\>94 |
+| src/haystack\_integrations/components/retrievers/azure\_ai\_search/hybrid\_retriever.py    |       41 |        0 |        6 |        1 |     98% |   95-\>97 |
+| src/haystack\_integrations/document\_stores/azure\_ai\_search/document\_store.py           |      372 |      137 |      130 |       10 |     62% |69-\>74, 211, 225-232, 240-241, 291-315, 410, 418-419, 428-\>431, 433-434, 508-517, 527-531, 542-543, 556-560, 613-628, 636-640, 649-678, 691-706, 720-754, 763, 774-775, 787-792, 798-827, 862-869, 902-905, 935-937, 973-982 |
 | src/haystack\_integrations/document\_stores/azure\_ai\_search/errors.py                    |        8 |        0 |        0 |        0 |    100% |           |
-| src/haystack\_integrations/document\_stores/azure\_ai\_search/filters.py                   |       71 |        0 |       32 |        0 |    100% |           |
-| **TOTAL**                                                                                  |  **558** |  **137** |  **176** |   **14** | **74%** |           |
+| src/haystack\_integrations/document\_stores/azure\_ai\_search/filters.py                   |       73 |        0 |       32 |        0 |    100% |           |
+| **TOTAL**                                                                                  |  **576** |  **137** |  **180** |   **13** | **75%** |           |
 
 
 ## Setup coverage badge
