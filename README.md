@@ -4,11 +4,11 @@
 
 | Name                                                                                     |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |----------------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/mongodb\_atlas/embedding\_retriever.py  |       36 |        0 |        4 |        0 |    100% |           |
-| src/haystack\_integrations/components/retrievers/mongodb\_atlas/full\_text\_retriever.py |       34 |        0 |        2 |        0 |    100% |           |
-| src/haystack\_integrations/document\_stores/mongodb\_atlas/document\_store.py            |      540 |      215 |      140 |       25 |     60% |124, 126, 134, 136, 193-\>198, 206-\>exit, 217-\>222, 230-\>exit, 269-271, 279-281, 302-305, 323, 348-350, 363-374, 378, 385, 406-408, 426-428, 432, 447, 465-467, 485-487, 496-\>499, 511, 539-541, 565-567, 579-583, 595-599, 612-641, 656-688, 696-700, 708-712, 722-737, 747-762, 773-791, 802-820, 830-870, 880-922, 966-\>971, 1013, 1016-\>1021, 1023-1024, 1113-\>1115, 1177, 1181, 1183, 1207-\>1209, 1221-\>1223, 1223-\>1225, 1239-\>1248 |
+| src/haystack\_integrations/components/retrievers/mongodb\_atlas/embedding\_retriever.py  |       40 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/mongodb\_atlas/full\_text\_retriever.py |       38 |        0 |        2 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/mongodb\_atlas/document\_store.py            |      557 |      216 |      146 |       25 |     61% |138, 140, 148, 150, 207-\>212, 220-\>exit, 231-\>236, 244-\>exit, 285-287, 295-297, 318-321, 339, 364-366, 379-390, 394, 401, 422-424, 442-444, 448, 463, 481-483, 501-503, 520, 547, 588-590, 628-630, 642-646, 658-662, 675-704, 719-751, 759-763, 771-775, 785-800, 810-825, 836-854, 865-883, 893-933, 943-985, 1029-\>1034, 1076, 1079-\>1084, 1086-1087, 1176-\>1178, 1240, 1244, 1246, 1270-\>1272, 1284-\>1286, 1286-\>1288, 1302-\>1311 |
 | src/haystack\_integrations/document\_stores/mongodb\_atlas/filters.py                    |       87 |       16 |       36 |       10 |     79% |43, 47, 49, 62-63, 65-66, 78, 85-\>exit, 95, 104-105, 110, 118-120, 128, 136 |
-| **TOTAL**                                                                                |  **697** |  **231** |  **182** |   **35** | **66%** |           |
+| **TOTAL**                                                                                |  **722** |  **232** |  **188** |   **35** | **67%** |           |
 
 
 ## Setup coverage badge
