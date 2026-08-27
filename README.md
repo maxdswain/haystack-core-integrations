@@ -4,13 +4,13 @@
 
 | Name                                                                              |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |---------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/weaviate/bm25\_retriever.py      |       32 |        0 |        2 |        0 |    100% |           |
-| src/haystack\_integrations/components/retrievers/weaviate/embedding\_retriever.py |       47 |        0 |        8 |        0 |    100% |           |
-| src/haystack\_integrations/components/retrievers/weaviate/hybrid\_retriever.py    |       47 |        0 |        8 |        0 |    100% |           |
-| src/haystack\_integrations/document\_stores/weaviate/\_filters.py                 |      148 |        4 |       66 |        2 |     97% |22-23, 247-248 |
+| src/haystack\_integrations/components/retrievers/weaviate/bm25\_retriever.py      |       36 |        0 |        2 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/weaviate/embedding\_retriever.py |       51 |        0 |        8 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/weaviate/hybrid\_retriever.py    |       51 |        0 |        8 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/weaviate/\_filters.py                 |      148 |        6 |       66 |        1 |     96% |22-23, 246-249 |
 | src/haystack\_integrations/document\_stores/weaviate/auth.py                      |       85 |        0 |        6 |        0 |    100% |           |
-| src/haystack\_integrations/document\_stores/weaviate/document\_store.py           |      644 |       40 |      208 |       17 |     93% |299-\>exit, 308-\>exit, 489, 539, 567-\>571, 751-\>761, 806-808, 816-818, 967, 996, 1014-1015, 1030-\>1012, 1069-\>1049, 1193, 1242-1248, 1306-1311, 1379-1380, 1397-1398, 1425, 1445-\>1448, 1454-1458, 1461-1464, 1472-1477 |
-| **TOTAL**                                                                         | **1003** |   **44** |  **298** |   **19** | **95%** |           |
+| src/haystack\_integrations/document\_stores/weaviate/document\_store.py           |      649 |       40 |      210 |       15 |     93% |494, 544, 572-\>576, 797-\>807, 852-854, 862-864, 1013, 1042, 1060-1061, 1076-\>1058, 1115-\>1095, 1239, 1288-1294, 1352-1357, 1425-1426, 1443-1444, 1471, 1491-\>1494, 1500-1504, 1507-1510, 1518-1523 |
+| **TOTAL**                                                                         | **1020** |   **46** |  **300** |   **16** | **95%** |           |
 
 
 ## Setup coverage badge
