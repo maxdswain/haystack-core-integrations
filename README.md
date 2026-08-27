@@ -4,10 +4,10 @@
 
 | Name                                                                              |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |---------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/falkordb/cypher\_retriever.py    |       27 |        0 |        4 |        0 |    100% |           |
-| src/haystack\_integrations/components/retrievers/falkordb/embedding\_retriever.py |       30 |        0 |        4 |        1 |     97% |   90-\>92 |
-| src/haystack\_integrations/document\_stores/falkordb/document\_store.py           |      272 |       26 |       90 |        6 |     90% |132, 179, 191-195, 210-214, 224-232, 432-434, 538-540, 576, 596-599, 695-696 |
-| **TOTAL**                                                                         |  **329** |   **26** |   **98** |    **7** | **91%** |           |
+| src/haystack\_integrations/components/retrievers/falkordb/cypher\_retriever.py    |       29 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/falkordb/embedding\_retriever.py |       32 |        0 |        4 |        1 |     97% |   90-\>92 |
+| src/haystack\_integrations/document\_stores/falkordb/document\_store.py           |      373 |       34 |      118 |       11 |     90% |136, 206-210, 225-229, 239-247, 447-449, 539-540, 575, 578, 582, 640-642, 660, 750-752, 788, 808-811, 910-911 |
+| **TOTAL**                                                                         |  **434** |   **34** |  **126** |   **12** | **91%** |           |
 
 
 ## Setup coverage badge
