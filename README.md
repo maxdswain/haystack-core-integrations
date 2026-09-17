@@ -4,13 +4,14 @@
 
 | Name                                                                                            |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |------------------------------------------------------------------------------------------------ | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/common/google\_genai/utils.py                                        |       32 |        0 |       16 |        0 |    100% |           |
-| src/haystack\_integrations/components/embedders/google\_genai/document\_embedder.py             |      100 |        6 |       30 |        5 |     92% |231, 241, 264, 274, 326-330 |
-| src/haystack\_integrations/components/embedders/google\_genai/multimodal\_document\_embedder.py |      157 |        8 |       56 |        7 |     93% |372-373, 394, 415-\>388, 437, 447-448, 451-456, 458-\>431 |
-| src/haystack\_integrations/components/embedders/google\_genai/text\_embedder.py                 |       48 |        6 |        4 |        1 |     87% |188, 210-211, 229-231 |
-| src/haystack\_integrations/components/generators/google\_genai/chat/chat\_generator.py          |      165 |        2 |       38 |        3 |     98% |388-\>390, 587, 591 |
-| src/haystack\_integrations/components/generators/google\_genai/chat/utils.py                    |      308 |       24 |      180 |       22 |     89% |222-223, 261-263, 270-\>278, 283-\>288, 327-329, 398-\>288, 461, 471-473, 511-\>545, 514-\>545, 519, 529-\>531, 532-537, 541-542, 558, 571, 582, 587-588, 673-\>644, 746-\>752, 752-\>738, 762, 768 |
-| **TOTAL**                                                                                       |  **810** |   **46** |  **324** |   **38** | **92%** |           |
+| src/haystack\_integrations/common/google\_genai/utils.py                                        |       38 |        0 |       20 |        2 |     97% |16-\>exit, 29-\>exit |
+| src/haystack\_integrations/components/embedders/google\_genai/document\_embedder.py             |      122 |        6 |       38 |        5 |     93% |264, 274, 297, 307, 365-369 |
+| src/haystack\_integrations/components/embedders/google\_genai/multimodal\_document\_embedder.py |      180 |        8 |       64 |        7 |     94% |405-406, 428, 449-\>422, 472, 482-483, 486-491, 493-\>466 |
+| src/haystack\_integrations/components/embedders/google\_genai/text\_embedder.py                 |       68 |        8 |       12 |        1 |     89% |220, 245-246, 264-269 |
+| src/haystack\_integrations/components/generators/google\_genai/chat/chat\_generator.py          |      185 |        2 |       46 |        3 |     98% |421-\>423, 626, 630 |
+| src/haystack\_integrations/components/generators/google\_genai/chat/utils.py                    |      308 |       24 |      180 |       22 |     89% |222-223, 264-266, 273-\>281, 286-\>291, 330-332, 401-\>291, 464, 474-476, 514-\>548, 517-\>548, 522, 532-\>534, 535-540, 544-545, 561, 574, 585, 590-591, 676-\>647, 749-\>755, 755-\>741, 765, 771 |
+| src/haystack\_integrations/token\_counters/google\_genai/token\_counter.py                      |       59 |        3 |       18 |        3 |     92% |92, 146-147, 156-\>exit |
+| **TOTAL**                                                                                       |  **960** |   **51** |  **378** |   **43** | **93%** |           |
 
 
 ## Setup coverage badge
