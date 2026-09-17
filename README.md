@@ -4,8 +4,10 @@
 
 | Name                                                                        |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |---------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/websearch/tavily/tavily\_websearch.py |       55 |        0 |       20 |        4 |     95% |73-\>75, 75-\>exit, 132-\>135, 156-\>149 |
-| **TOTAL**                                                                   |   **55** |    **0** |   **20** |    **4** | **95%** |           |
+| src/haystack\_integrations/components/fetchers/tavily/tavily\_fetcher.py    |       53 |        0 |       12 |        0 |    100% |           |
+| src/haystack\_integrations/components/websearch/tavily/tavily\_websearch.py |       58 |        0 |       16 |        2 |     97% |141-\>144, 165-\>158 |
+| src/haystack\_integrations/tools/tavily/websearch\_tool.py                  |       37 |        0 |       10 |        0 |    100% |           |
+| **TOTAL**                                                                   |  **148** |    **0** |   **38** |    **2** | **99%** |           |
 
 
 ## Setup coverage badge
