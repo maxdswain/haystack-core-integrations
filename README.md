@@ -4,11 +4,10 @@
 
 | Name                                                                            |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |-------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/embedders/ollama/document\_embedder.py    |       74 |        7 |       16 |        5 |     87% |100-104, 115, 177-178, 204, 239 |
-| src/haystack\_integrations/components/embedders/ollama/text\_embedder.py        |       24 |        0 |        0 |        0 |    100% |           |
-| src/haystack\_integrations/components/generators/ollama/chat/chat\_generator.py |      227 |        3 |       72 |        9 |     96% |62, 143-\>145, 145-\>147, 147-\>155, 421-\>425, 427-\>384, 486-487, 501-\>505, 507-\>510 |
-| src/haystack\_integrations/components/generators/ollama/generator.py            |       71 |        0 |       12 |        4 |     95% |65-\>67, 67-\>75, 187-\>189, 223-\>220 |
-| **TOTAL**                                                                       |  **396** |   **10** |  **100** |   **18** | **94%** |           |
+| src/haystack\_integrations/components/embedders/ollama/document\_embedder.py    |       95 |        5 |       24 |        4 |     92% |144, 210-211, 240, 278 |
+| src/haystack\_integrations/components/embedders/ollama/text\_embedder.py        |       40 |        0 |        8 |        0 |    100% |           |
+| src/haystack\_integrations/components/generators/ollama/chat/chat\_generator.py |      257 |        3 |       82 |        8 |     97% |63, 144-\>146, 146-\>148, 148-\>156, 433-\>437, 501-502, 515-\>519, 524-\>527 |
+| **TOTAL**                                                                       |  **392** |    **8** |  **114** |   **12** | **96%** |           |
 
 
 ## Setup coverage badge
