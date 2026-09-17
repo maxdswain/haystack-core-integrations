@@ -2,11 +2,10 @@
 
 [Full report](https://htmlpreview.github.io/?https://github.com/maxdswain/haystack-core-integrations/blob/python-coverage-comment-action-data-togetherai/htmlcov/index.html)
 
-| Name                                                                                |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
-|------------------------------------------------------------------------------------ | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/generators/togetherai/chat/chat\_generator.py |       22 |        0 |        2 |        0 |    100% |           |
-| src/haystack\_integrations/components/generators/togetherai/generator.py            |       52 |        6 |        4 |        1 |     88% |205-212, 225 |
-| **TOTAL**                                                                           |   **74** |    **6** |    **6** |    **1** | **91%** |           |
+| Name                                                                                |    Stmts |     Miss |   Branch |   BrPart |    Cover |   Missing |
+|------------------------------------------------------------------------------------ | -------: | -------: | -------: | -------: | -------: | --------: |
+| src/haystack\_integrations/components/generators/togetherai/chat/chat\_generator.py |       22 |        0 |        2 |        0 |     100% |           |
+| **TOTAL**                                                                           |   **22** |    **0** |    **2** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
