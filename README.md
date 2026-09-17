@@ -4,11 +4,11 @@
 
 | Name                                                                                 |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |------------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/converters/mistral/ocr\_document\_converter.py |       98 |        2 |       22 |        0 |     98% |   428-429 |
-| src/haystack\_integrations/components/embedders/mistral/document\_embedder.py        |       14 |        0 |        0 |        0 |    100% |           |
-| src/haystack\_integrations/components/embedders/mistral/text\_embedder.py            |       14 |        0 |        0 |        0 |    100% |           |
-| src/haystack\_integrations/components/generators/mistral/chat/chat\_generator.py     |       29 |        1 |        4 |        1 |     94% |       208 |
-| **TOTAL**                                                                            |  **155** |    **3** |   **26** |    **1** | **98%** |           |
+| src/haystack\_integrations/components/converters/mistral/ocr\_document\_converter.py |      110 |        2 |       26 |        0 |     99% |   445-446 |
+| src/haystack\_integrations/components/embedders/mistral/document\_embedder.py        |       12 |        0 |        0 |        0 |    100% |           |
+| src/haystack\_integrations/components/embedders/mistral/text\_embedder.py            |       12 |        0 |        0 |        0 |    100% |           |
+| src/haystack\_integrations/components/generators/mistral/chat/chat\_generator.py     |      130 |        5 |       58 |        7 |     94% |46-\>45, 48-\>40, 307, 373-\>380, 390-391, 445-\>452, 462-463 |
+| **TOTAL**                                                                            |  **264** |    **7** |   **84** |    **7** | **96%** |           |
 
 
 ## Setup coverage badge
