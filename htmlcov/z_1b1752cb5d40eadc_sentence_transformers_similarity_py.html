@@ -5,7 +5,7 @@
     <title>Coverage for src/haystack_integrations/components/rankers/sentence_transformers/sentence_transformers_similarity.py: 96%</title>
     <link rel="icon" sizes="32x32" href="favicon_32_cb_c827f16f.png">
     <link rel="stylesheet" href="style_cb_4667309f.css" type="text/css">
-    <script src="coverage_html_cb_dd2e7eb5.js" defer></script>
+    <script src="coverage_html_cb_15cffcd0.js" defer></script>
 </head>
 <body class="pyfile">
 <header>
@@ -66,8 +66,8 @@
             <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="index.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.15.4">coverage.py v7.15.4</a>,
-            created at 2026-08-21 18:29 +0000
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.16.1">coverage.py v7.16.1</a>,
+            created at 2026-09-27 14:17 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"></button>
@@ -334,13 +334,13 @@
     <p class="run"><span class="n"><a id="t250" href="#t250">250</a></span><span class="t">        <span class="key">if</span> <span class="key">not</span> <span class="nam">documents</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t251" href="#t251">251</a></span><span class="t">            <span class="key">return</span> <span class="op">{</span><span class="str">&quot;documents&quot;</span><span class="op">:</span> <span class="op">[</span><span class="op">]</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t252" href="#t252">252</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t253" href="#t253">253</a></span><span class="t">        <span class="nam">top_k</span> <span class="op">=</span> <span class="nam">top_k</span> <span class="key">or</span> <span class="nam">self</span><span class="op">.</span><span class="nam">top_k</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t254" href="#t254">254</a></span><span class="t">        <span class="nam">scale_score</span> <span class="op">=</span> <span class="nam">scale_score</span> <span class="key">or</span> <span class="nam">self</span><span class="op">.</span><span class="nam">scale_score</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t255" href="#t255">255</a></span><span class="t">        <span class="nam">score_threshold</span> <span class="op">=</span> <span class="nam">score_threshold</span> <span class="key">or</span> <span class="nam">self</span><span class="op">.</span><span class="nam">score_threshold</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t253" href="#t253">253</a></span><span class="t">        <span class="key">if</span> <span class="nam">top_k</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span> <span class="key">and</span> <span class="nam">top_k</span> <span class="op">&lt;=</span> <span class="num">0</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t254" href="#t254">254</a></span><span class="t">            <span class="nam">msg</span> <span class="op">=</span> <span class="fst">f&quot;</span><span class="fst">top_k must be &gt; 0, but got </span><span class="op">{</span><span class="nam">top_k</span><span class="op">}</span><span class="fst">&quot;</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t255" href="#t255">255</a></span><span class="t">            <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="nam">msg</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t256" href="#t256">256</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t257" href="#t257">257</a></span><span class="t">        <span class="key">if</span> <span class="nam">top_k</span> <span class="op">&lt;=</span> <span class="num">0</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t258" href="#t258">258</a></span><span class="t">            <span class="nam">msg</span> <span class="op">=</span> <span class="fst">f&quot;</span><span class="fst">top_k must be &gt; 0, but got </span><span class="op">{</span><span class="nam">top_k</span><span class="op">}</span><span class="fst">&quot;</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t259" href="#t259">259</a></span><span class="t">            <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="nam">msg</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t257" href="#t257">257</a></span><span class="t">        <span class="nam">top_k</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">top_k</span> <span class="key">if</span> <span class="nam">top_k</span> <span class="key">is</span> <span class="key">None</span> <span class="key">else</span> <span class="nam">top_k</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t258" href="#t258">258</a></span><span class="t">        <span class="nam">scale_score</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">scale_score</span> <span class="key">if</span> <span class="nam">scale_score</span> <span class="key">is</span> <span class="key">None</span> <span class="key">else</span> <span class="nam">scale_score</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t259" href="#t259">259</a></span><span class="t">        <span class="nam">score_threshold</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">score_threshold</span> <span class="key">if</span> <span class="nam">score_threshold</span> <span class="key">is</span> <span class="key">None</span> <span class="key">else</span> <span class="nam">score_threshold</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t260" href="#t260">260</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t261" href="#t261">261</a></span><span class="t">        <span class="nam">deduplicated_documents</span> <span class="op">=</span> <span class="nam">_deduplicate_documents</span><span class="op">(</span><span class="nam">documents</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t262" href="#t262">262</a></span><span class="t">        <span class="nam">prepared_query</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">query_prefix</span> <span class="op">+</span> <span class="nam">query</span> <span class="op">+</span> <span class="nam">self</span><span class="op">.</span><span class="nam">query_suffix</span>&nbsp;</span><span class="r"></span></p>
@@ -385,8 +385,8 @@
             <a class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
             <a class="nav" href="index.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.15.4">coverage.py v7.15.4</a>,
-            created at 2026-08-21 18:29 +0000
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.16.1">coverage.py v7.16.1</a>,
+            created at 2026-09-27 14:17 +0000
         </p>
     </div>
 </footer>
