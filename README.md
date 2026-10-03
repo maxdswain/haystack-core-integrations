@@ -4,8 +4,8 @@
 
 | Name                                                                                |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |------------------------------------------------------------------------------------ | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/generators/openrouter/chat/chat\_generator.py |       46 |        1 |       12 |        2 |     95% |199-\>202, 219 |
-| **TOTAL**                                                                           |   **46** |    **1** |   **12** |    **2** | **95%** |           |
+| src/haystack\_integrations/components/generators/openrouter/chat/chat\_generator.py |      143 |        8 |       64 |        9 |     91% |60-\>63, 77, 292-\>295, 312, 371-\>377, 390, 439, 451-453, 471 |
+| **TOTAL**                                                                           |  **143** |    **8** |   **64** |    **9** | **91%** |           |
 
 
 ## Setup coverage badge
