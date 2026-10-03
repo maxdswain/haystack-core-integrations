@@ -4,8 +4,8 @@
 
 | Name                                                                  |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |---------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/converters/docling/converter.py |      110 |        4 |       32 |        2 |     96% |63, 68, 216-\>219, 259-260 |
-| **TOTAL**                                                             |  **110** |    **4** |   **32** |    **2** | **96%** |           |
+| src/haystack\_integrations/components/converters/docling/converter.py |      135 |        6 |       46 |        5 |     94% |63, 68, 159, 161, 246-\>249, 253-\>256, 294-295 |
+| **TOTAL**                                                             |  **135** |    **6** |   **46** |    **5** | **94%** |           |
 
 
 ## Setup coverage badge
